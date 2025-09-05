@@ -13,14 +13,15 @@
   
   <div class="outer">
   <div class="inner">
-	<img class= "profpic" alt="profile pic" src="assets/prof.png" onclick="dropDown(0)">
+	<img id="pic" class= "profpic" alt="profile pic" src="assets/prof.png" onclick="dropDown(0)">
 	<h1 id="name" onclick="dropDown(1)">Ryan Kumar</h1>
   <div id="dropdown" class="off">
 	<h4><i>rdkumar2@illinois.edu</i></h4>
 	<a href="https://github.com/ryan-kumar"><h3>GitHub</h3></a>
-	<p class="bio">3rd-year student in Computer Science and Crop Sciences. I am interested in working on embedded systems within the field of agriculture, particularly those involved in sensing and data acquisition. My secondary interest is in Computer Science education. I am interested in working on developing tools and infrastructure to support education at scale. Additionally, I find the challenge of incorporating, or preventing the usage of LLMs within a given set of coursework to be very intriguing.<br/><br/> 
+	<p class="bio" id="desc">3rd-year student in Computer Science and Crop Sciences. I am interested in working on embedded systems within the field of agriculture, particularly those involved in sensing and data acquisition. My secondary interest is in Computer Science Education. I am interested in working on developing tools and infrastructure to support education at scale. Additionally, I find the challenge of incorporating, or preventing the usage of LLMs within a given set of coursework to be very intriguing.<br/><br/> 
      I am currently interning at a startup, where I write web-scrapers to scout for new prospective SAS products, and their respective buyers. I am also a lead course assistant for CS 128 here at the University.</p>
   </div>
+  <button id="switch" type="button" data-state="off" onclick="nyanMode()">nyan mode</button>
   </div>
   </div>
 
