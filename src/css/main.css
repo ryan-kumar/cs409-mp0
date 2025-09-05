@@ -1,1 +1,27 @@
 /* Your CSS here. */
+.outer {
+    /* border-style: dashed; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.inner {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    width: 65%;
+    padding: 1%;
+}
+.bio {
+    text-align: left;
+}
+.profpic {
+    margin-top: 2%;
+}
+.off {
+    display: none;
+}
