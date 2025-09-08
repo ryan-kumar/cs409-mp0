@@ -13,7 +13,7 @@
     text-align: center;
     background-color: gray;
     color: white;
-    width: 65%;
+    width: 60%;
     padding: 1%;
 }
 .bio {
@@ -21,6 +21,8 @@
 }
 .profpic {
     margin-top: 2%;
+    width: 150px;
+    height: 150px;
 }
 .off {
     display: none;
